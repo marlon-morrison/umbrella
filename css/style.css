@@ -1,0 +1,232 @@
+body {
+    background-image: url("/media/pattern.jpg");
+    background-repeat: repeat;
+}
+header img {
+    margin-top: 20px;
+}
+header ul {
+    padding-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+header li {
+    text-align: center;
+    display: inline;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 300;
+}
+header a {
+    color: #000;
+    text-transform: uppercase;
+}
+.hero {
+    background: #a0c63f;
+    padding-top: 20px;
+    position: relative;
+}
+.hero p {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    right: 0;
+    width: 460px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+main img {
+    text-align: center;
+}
+main h1 {
+    text-transform: uppercase;
+}
+main h2 {
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+main h3 {
+    text-transform: uppercase;
+}
+main {
+    padding-bottom: 50px;
+}
+.center {
+    text-align: center;
+}
+.center img {
+    border-radius: 50%;
+    border: 20px solid #fff;
+    padding: 20px;
+    background: #8eb53e;
+    margin: auto;
+}
+.border {
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    margin: 47px;
+    margin-bottom: 0;
+}
+@media (max-width: 435px) {
+    .border {
+        margin:0;
+        margin-bottom: 0;
+    
+    }
+ }
+ @media (min-width: 735px) and (max-width:989px) {
+    .border {
+        margin: 0 93px 0 99px;
+    }
+ }
+ @media (min-width: 992px) and (max-width:1199px) {
+    .border {
+        margin: 0 148px 0 147px;
+    }
+}
+.support span{
+    font-size: 40px;
+}
+.support p {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.line  {
+    font-size: 40px;
+    color: #bbb;
+    opacity: 0.1;
+}
+.line2 {
+    font-size: 20px;
+    color: #000;
+    opacity: 0.1;
+}
+.green {
+    color: #a0c63f;
+    font-size: 30px;
+}
+.boxdetails  {
+    position: absolute;
+}
+.box {
+    background: #fff;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+    position: relative;
+    margin-left: 40%;
+    height: 149px;
+}
+.box h3 {
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 15px;
+}
+.box a {
+    border: 1px solid #fff;
+    background: #8eb53e;
+    padding: 4px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.box p {
+    margin-top: 6px;
+}
+.calloutrow2 {
+    margin-top: 40px;
+}
+.left {
+    text-align: left;
+}
+.left p {
+    margin-top: 35px;
+}
+.right { 
+    position: absolute;
+    top: 0;
+    padding-left: 820px;
+}
+.box2 {
+    background: #fff;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+    padding-right: 350px;
+    position: relative;
+}
+.button a {
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+    background: #8eb53e;
+    font-size: 35px;
+    width: 70px;
+    text-align: center;
+    color: #fff;
+}
+.catagories ul {
+    padding-left: 15px;
+}
+.search form {
+    margin-top: 20px;
+    p20
+} 
+@media (min-width: 735px) and (max-width:989px) {
+
+ }
+footer {
+    background: #fff;
+}
+footer h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+footer ul {
+    padding-left: 0;
+    text-decoration: none;
+}
+footer li {
+   list-style: none;
+}
+footer a {
+    color: #000;
+}
+.archives li{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.dashed {
+    border-bottom: 1px dashed #bbb;
+}
+.contact li{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.social li {
+    display: inline;
+}
+.newsletter input {
+    margin-bottom: 13px;
+    padding-right: 40px;
+    background: #eee;
+}
+.newsletter button{
+    margin-left: 131px;
+    background: #a0c63f;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.copyright {
+    background: #000;
+    color: #fff;
+}
+.copyright a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.rights p{
+    float: right;
+}
