@@ -20,6 +20,11 @@ header li {
 header a {
     color: #000;
     text-transform: uppercase;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: none;
+    color: #000;
 }
 .hero {
     background: #a0c63f;
@@ -169,11 +174,8 @@ main {
 }
 .search form {
     margin-top: 20px;
-    p20
+    padding: 20px;
 } 
-@media (min-width: 735px) and (max-width:989px) {
-
- }
 footer {
     background: #fff;
 }
@@ -226,6 +228,10 @@ footer a {
 .copyright a {
     color: #fff;
     text-transform: uppercase;
+}
+.copyright a:hover {
+    text-decoration: none;
+    color: #fff;
 }
 .rights p{
     float: right;
